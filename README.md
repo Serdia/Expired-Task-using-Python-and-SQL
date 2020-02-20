@@ -1,18 +1,13 @@
-Extracting data using SQL query into pandas dataframe. 
-Dataframe contains user name and email. 
-Sending email to each user with necessary data. 
+The goal of this project is to notify user via daily email about tasks that is need to be completed ASAP. 
+
+Using SQL query collecting data and saving it into a dataframe. 
+
+Cleaning data. 
+
+Using for loop, iterating through each user.
+
+With help of CSS creating formatted HTML table with data for each user
+
+Sending HTML data to each user by using send_email function
 
 
-Libraries used in this project:
-
-import smtplib
-
-import pyodbc
-
-from email.mime.text import MIMEText
-
-from email.mime.multipart import MIMEMultipart
-
-import pandas as pd
-
-import datetime as dt
